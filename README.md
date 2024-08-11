@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# B1tByt3 Bl5ckj5ck
 
-## Getting Started
+B1tByt3 Bl5ckj5ck is a web-based implementation of the classic game Blackjack for the purposes of demonstrating technical competency in React.JS, Next.JS, Tailwind, etc
 
-First, run the development server:
+## Project Prompt
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project was developed based on the following prompt:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- The game consists of two players: the player vs the House (the computer).
+- The goal is to beat the House's hand without going over 21 points.
+- The House is initially dealt two face-up cards and no more.
+- The player is initially dealt two face-up cards and has the options to "Hit" (draw more cards) or "Stand" (end their turn).
+- The game ends when the player's card value exceeds 21 (automatic loss) or when the player chooses to "Stand".
+- The application displays whether the player won or lost at the end of the game.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The B1tByt3 Bl5ckj5ck application is built using the following technologies:
 
-## Learn More
+- React: A JavaScript library for building user interfaces.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+- Next.js: A React framework for server-side rendering, routing, and more.
+- Tailwind CSS: A utility-first CSS framework for rapid UI development.
+- Framer Motion: A library for creating smooth animations in React.
+- Deck of Cards API: An external API (deckofcardsapi.com) used for managing the deck of cards.
 
-To learn more about Next.js, take a look at the following resources:
+## Hypothetical Next Steps
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If this were an actual in-development application, my next steps might include:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Code intended for production should be testable and a framework of unit tests developed accordingly. (Potentially Cypress?)
+2. Error handling would need to be significantly more robust to avoid edge cases and allow for soft landings in the event of an unexpected error.
+3. Application is currently MVP and as such is not appropriately mobile responsive.
+4. API could be broken out into routes via Next to leverage the frameworks features more extensively.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions to the B1tByt3 Bl5ckj5ck project are welcome! If you find any bugs, have suggestions for improvements, or want to contribute new features, please open an issue or submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the [MIT License](LICENSE).
