@@ -32,7 +32,8 @@ If this were an actual in-development application, my next steps might include:
 2. Error handling would need to be significantly more robust to avoid edge cases and allow for soft landings in the event of an unexpected error.
 3. Application is currently MVP and as such is not appropriately mobile responsive.
 4. API could be broken out into routes via Next to leverage the frameworks features more extensively.
-5. A state management library, potentially Redux, would likely be necessary as complexity grew over time with added features. 
+5. A state management library, potentially Redux, would likely be necessary as complexity grew over time with added features.
+6. As no guideline for code organization, commenting, or documentation was provided, I elected to do a minimum for the sake of time. Ideally, this would not be the case in a professional context.
 
 ## Contributing
 
